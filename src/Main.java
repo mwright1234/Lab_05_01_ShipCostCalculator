@@ -15,7 +15,7 @@ public class Main {
             in.nextLine();
             if(itemCost < 100)
             {
-                shipCost = itemCost + shipCost;
+                shipCost = itemCost * SHIP_RATE;
             }
             totalCost = itemCost + shipCost;
             System.out.println("your shipping cost is $" + shipCost);
